@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;//シーンマネジメントを有効にする
 
-public class Title : MonoBehaviour
+public class Loadscene : MonoBehaviour
 {
 
 	// Use this for initialization
@@ -15,7 +15,7 @@ public class Title : MonoBehaviour
 	// Update is called once per frame
 	void Update()
 	{
-		if (Input.GetMouseButtonDown(0) || Input.GetKeyDown("space") || Input.GetButtonDown("Action1") || Input.GetButtonDown("Jump")) //マウス左クリック、スペースキー、Aボタン、ジャンプボタンを押した場合
+		if (Input.GetKeyDown("space")) 
 		{
 			SceneManager.LoadScene("RPG scene");//some_senseiシーンをロードする
 		}
