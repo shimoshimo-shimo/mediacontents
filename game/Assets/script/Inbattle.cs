@@ -15,17 +15,15 @@ public class Inbattle: MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("space"))
-            {
-                SceneManager.LoadScene("typing scene");//some_senseiシーンをロードする
-            }
+        
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.name == "pipo-charachip029_0")
         {
             SceneManager.LoadScene("typing scene");
+            
         }
     }   
 }
