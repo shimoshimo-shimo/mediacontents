@@ -1,36 +1,34 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Collections;
 
+/**
+ * キャラの座標を変更するController
+ */
 public class movement : MonoBehaviour
 {
-    private float speed = 0.05f;
+    [SerializeField]
+    float SPEED = 1.0f;
+    private Rigidbody2D rigidBody;
+    private Vector2 inputAxis;
 
     void Start()
     {
+        // オブジェクトに設定しているRigidbody2Dの参照を取得する
+        this.rigidBody = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
-        Vector2 position = transform.position;
+        // x,ｙの入力値を得る
+        // それぞれ+や-の値と入力の関連付けはInput Managerで設定されている
+        inputAxis.x = Input.GetAxis("Horizontal");
+        inputAxis.y = Input.GetAxis("Vertical");
+    }
 
-        if (Input.GetKey("left"))
-        {
-            position.x -= speed;
-        }
-        else if (Input.GetKey("right"))
-        {
-            position.x += speed;
-        }
-        else if (Input.GetKey("up"))
-        {
-            position.y += speed;
-        }
-        else if (Input.GetKey("down"))
-        {
-            position.y -= speed;
-        }
-
-        transform.position = position;
+    private void FixedUpdate()
+    {
+        // 速度を代入する
+        rigidBody.velocity = inputAxis.normalized * SPEED;
     }
 }
