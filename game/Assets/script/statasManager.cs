@@ -2,26 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class statasManager : MonoBehaviour
+public static class statasManager 
 {
-
-    public static class GlobalVariables
+    public static int HP;
+    
+    public static void SaveData()
     {
-        public static int HP = 0;
-        
+        PlayerPrefs.SetInt("HP", HP);
+    }
+    
+    public static void LoadData()
+    {
+        HP = PlayerPrefs.GetInt("HP", 100);
     }
 
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        GlobalVariables. HP = 100;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+    
+};

@@ -22,6 +22,7 @@ public class Inbattle: MonoBehaviour
     {
         if (collision.gameObject.name == "pipo-charachip029_0")
         {
+            statasManager.SaveData();
             SceneManager.LoadScene("typing scene");
             
         }
