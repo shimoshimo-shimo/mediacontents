@@ -1,13 +1,5 @@
 sceneSetups:
-- path: "Assets/Scenes/\u30BF\u30A4\u30C8\u30EB\uFF08\u4EEE\uFF09.unity"
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/typing scene.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/RPG scene.unity
+- path: Assets/Scenes/Title scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -388,6 +388,7 @@
 "Assets/script/Loadscene.cs"
 "Assets/script/movement.cs"
 "Assets/script/statasManager.cs"
+"Assets/script/Title/Title.cs"
 -langversion:9.0
 
 /deterministic
