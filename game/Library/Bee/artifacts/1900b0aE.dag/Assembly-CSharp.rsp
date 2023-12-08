@@ -390,6 +390,7 @@
 "Assets/script/movement.cs"
 "Assets/script/statasManager.cs"
 "Assets/script/Title/Title.cs"
+"Assets/script/typing.cs"
 -langversion:9.0
 
 /deterministic
