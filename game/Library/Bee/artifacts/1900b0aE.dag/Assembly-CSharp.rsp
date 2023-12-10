@@ -389,6 +389,9 @@
 "Assets/script/Loadscene.cs"
 "Assets/script/movement.cs"
 "Assets/script/statasManager.cs"
+"Assets/script/Title/BtnCtrl.cs"
+"Assets/script/Title/CommandSelectColor.cs"
+"Assets/script/Title/PanelCtrl.cs"
 "Assets/script/Title/Title.cs"
 "Assets/script/typing.cs"
 -langversion:9.0
