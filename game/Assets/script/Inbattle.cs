@@ -32,7 +32,7 @@ public class Inbattle : MonoBehaviour
 
         //if (collision.gameObject.name == "pipo-charachip029_0")
 
-        SceneManager.LoadScene("typing scene");
+        SceneManager.LoadScene("‚ ");
 
     }
 }
