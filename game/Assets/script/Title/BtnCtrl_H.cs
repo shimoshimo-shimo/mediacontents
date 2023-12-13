@@ -45,7 +45,7 @@ public class BtnCtrl_H : MonoBehaviour
         foreach (Button button in buttons)
         {
             ColorBlock colors = button.colors;
-            colors.normalColor = Color.cyan; // 水色に変更
+            colors.normalColor = Color.gray; // 水色に変更
             button.colors = colors;
 
             // クリックイベントを一度クリアして再設定
@@ -55,7 +55,7 @@ public class BtnCtrl_H : MonoBehaviour
 
         // 現在のボタンをグレーに変更
         ColorBlock selectedButtonColors = buttons[currentIndex].colors;
-        selectedButtonColors.normalColor = Color.gray; // グレーに変更
+        selectedButtonColors.normalColor = Color.cyan; // グレーに変更
         buttons[currentIndex].colors = selectedButtonColors;
     }
 
