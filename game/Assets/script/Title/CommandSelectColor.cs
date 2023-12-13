@@ -1,24 +1,24 @@
+/*
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Events;
 
 public class CommandSelectColor : MonoBehaviour
 {
     public Button[] buttons; // 3つのボタンを割り当てる
     private int currentIndex = 0;
 
-    private BtnCtrl buttonController;
 
     private void Start()
     {
-        buttonController = GetComponent<BtnCtrl>();
+
         UpdateButtonColors();
     }
 
     private void Update()
     {
+
         // ↑キーと↓キーでボタンを選択
         if (Input.GetKeyDown(KeyCode.UpArrow))
         {
@@ -31,7 +31,7 @@ public class CommandSelectColor : MonoBehaviour
             UpdateButtonColors();
         }
 
-        // Enterキー||スペースキーでボタンを選択
+        // Enterキー || スペースキーでボタンを選択
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space))
         {
             // ボタンのクリックをシミュレート
@@ -49,8 +49,8 @@ public class CommandSelectColor : MonoBehaviour
             button.colors = colors;
 
             // クリックイベントを一度クリアして再設定
-            buttons[currentIndex].onClick.RemoveAllListeners();
-            buttons[currentIndex].onClick.AddListener(() => OnButtonClick(buttons[currentIndex]));
+            button.onClick.RemoveAllListeners();
+
         }
 
         // 現在のボタンをグレーに変更
@@ -59,9 +59,6 @@ public class CommandSelectColor : MonoBehaviour
         buttons[currentIndex].colors = selectedButtonColors;
     }
 
-    private void OnButtonClick(Button clickedButton)
-    {
-        // ボタンごとの処理をBtnCtrlに委託
-        buttonController.HandleButtonClick(clickedButton);
-    }
-}
+
+
+}*/
