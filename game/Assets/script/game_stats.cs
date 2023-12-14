@@ -8,6 +8,8 @@ public class game_stats : MonoBehaviour
     void Start()
     {
         Application.targetFrameRate = 30;
+        pos.playerpos.Loadpos();
+       
     }
 
     // Update is called once per frame
