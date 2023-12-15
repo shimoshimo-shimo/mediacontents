@@ -254,7 +254,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound1: {fileID: 8300000, guid: 4f217a1c5e1c96b4f8a75db457faf76c, type: 3}
+<<<<<<< Updated upstream
   objectToDeactivate: {fileID: 346718837}
+=======
+>>>>>>> Stashed changes
 --- !u!61 &346718841
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -387,9 +390,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346718837}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.23, y: 0, z: 0}
   m_LocalScale: {x: 3.7317665, y: 3.7317665, z: 3.7317665}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.23, y: 0, z: 0}
+  m_LocalScale: {x: 4.0936, y: 4.0936, z: 4.0936}
+>>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -415,6 +424,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+<<<<<<< Updated upstream
 --- !u!1 &488718022
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,6 +458,8 @@ Transform:
   - {fileID: 544110731}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1 &544110728
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,12 +558,21 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 544110728}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.6159451, y: -7.14782, z: 0.1111093}
   m_LocalScale: {x: 60.54, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 488718023}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.03, y: -4.86, z: -0.13582955}
+  m_LocalScale: {x: 60.54, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &654953076
 GameObject:
@@ -705,7 +726,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound1: {fileID: 8300000, guid: 4f217a1c5e1c96b4f8a75db457faf76c, type: 3}
+<<<<<<< Updated upstream
   objectToDeactivate: {fileID: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!61 &654953080
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -838,9 +862,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 654953076}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 13.640001, y: 6.4800005, z: 0}
   m_LocalScale: {x: 3.5870576, y: 3.5870576, z: 3.5870576}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.64, y: 6.48, z: 0}
+  m_LocalScale: {x: 4.0936, y: 4.0936, z: 4.0936}
+>>>>>>> Stashed changes
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -12964,12 +12994,21 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480363532}
   serializedVersion: 2
+<<<<<<< Updated upstream
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -8.975945, y: -0.53052866, z: 0.1782288}
   m_LocalScale: {x: 1, y: 31.727226, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 488718023}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.39, y: 1.7572912, z: -0.06871006}
+  m_LocalScale: {x: 1, y: 31.727226, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1561661682
 GameObject:
@@ -15286,4 +15325,9 @@ SceneRoots:
   - {fileID: 1699679796}
   - {fileID: 346718844}
   - {fileID: 654953083}
+<<<<<<< Updated upstream
   - {fileID: 488718023}
+=======
+  - {fileID: 1480363535}
+  - {fileID: 544110731}
+>>>>>>> Stashed changes
