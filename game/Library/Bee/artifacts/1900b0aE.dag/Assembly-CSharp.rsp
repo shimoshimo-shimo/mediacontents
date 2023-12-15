@@ -390,6 +390,7 @@
 "Assets/script/movement.cs"
 "Assets/script/statasManager.cs"
 "Assets/script/Title/ArrowCtrl.cs"
+"Assets/script/Title/arrowmove.cs"
 "Assets/script/Title/AudioConfig.cs"
 "Assets/script/Title/BtnCtrl.cs"
 "Assets/script/Title/BtnCtrl_H.cs"

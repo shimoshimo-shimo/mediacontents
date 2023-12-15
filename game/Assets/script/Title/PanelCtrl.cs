@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.IO;
 
 public class PanelCtrl : MonoBehaviour
 {
     [SerializeField] public GameObject OptionPanel;
     [SerializeField] public GameObject StartConfirm;
     [SerializeField] public GameObject QuitConfirm;
+    [SerializeField] public GameObject ReadmePanel;
 
 
 
@@ -18,6 +20,7 @@ public class PanelCtrl : MonoBehaviour
         OptionPanel.SetActive(false);
         StartConfirm.SetActive(false);
         QuitConfirm.SetActive(false);
+        ReadmePanel.SetActive(false);
     }
 
     //オプションパネルを閉じる　仮の手段
@@ -26,6 +29,7 @@ public class PanelCtrl : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             HideOptionPanel();
+            HideReadmePanel();
 
 
         }
@@ -79,6 +83,50 @@ public class PanelCtrl : MonoBehaviour
     }
 
 
+
+
+    // 【　Readmeファイル　】
+    public void ShowReadmePanel()
+    {
+        ReadmePanel.SetActive(true);
+        ReadmeFiles();
+    }
+
+    public void HideReadmePanel()
+    {
+        ReadmePanel.SetActive(false);
+    }
+
+
+
+
+    // 【　Readmeファイル読み込み　】
+    public Text readmeText;
+
+    public void ReadmeFiles()
+    {
+        string filePath = "Assets/ReadmeFile.txt";
+
+        if (File.Exists(filePath))
+        {
+            string readmeContent = File.ReadAllText(filePath);
+
+            // readmeText フィールドが null でないことを確認する
+            if (readmeText != null)
+            {
+                readmeText.text = readmeContent;
+            }
+            else
+            {
+                Debug.LogError("readmeText is not assigned. Assign the Text component in the Inspector.");
+            }
+        }
+        else
+        {
+            Debug.LogError("Readme file not found!");
+        }
+    }
+    
 
 
 }
