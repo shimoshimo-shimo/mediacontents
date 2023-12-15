@@ -399,11 +399,7 @@
 "Assets/script/Title/PanelCtrl.cs"
 "Assets/script/Title/SliderCtrl.cs"
 "Assets/script/Title/Title.cs"
-<<<<<<< Updated upstream
-"Assets/script/typing.cs"
-=======
 "Assets/script/typing2.cs"
->>>>>>> Stashed changes
 -langversion:9.0
 
 /deterministic

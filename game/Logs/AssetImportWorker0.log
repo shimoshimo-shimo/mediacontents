@@ -15,7 +15,7 @@ C:/Users/keita/OneDrive/ドキュメント/GitHub/mediacontents/game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53665
+54104
 Successfully changed project path to: C:/Users/keita/OneDrive/ドキュメント/GitHub/mediacontents/game
 C:/Users/keita/OneDrive/ドキュメント/GitHub/mediacontents/game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/keita/OneDrive/ドキュメント/GitHub/mediacontents/game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17412] Host "[IP] 169.254.115.140 [Port] 0 [Flags] 2 [Guid] 107791276 [EditorId] 107791276 [Version] 1048832 [Id] WindowsEditor(7,leichama) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25880] Host "[IP] 169.254.115.140 [Port] 0 [Flags] 2 [Guid] 3166123143 [EditorId] 3166123143 [Version] 1048832 [Id] WindowsEditor(7,leichama) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [17412] Host "[IP] 169.254.115.140 [Port] 0 [Flags] 2 [Guid] 107791276 [EditorId] 107791276 [Version] 1048832 [Id] WindowsEditor(7,leichama) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25880] Host "[IP] 169.254.115.140 [Port] 0 [Flags] 2 [Guid] 3166123143 [EditorId] 3166123143 [Version] 1048832 [Id] WindowsEditor(7,leichama) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 39.61 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 29.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.11f1 (d00248457e15)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.017541 seconds.
-- Loaded All Assemblies, in  0.915 seconds
+Registered in 0.018090 seconds.
+- Loaded All Assemblies, in  0.826 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.750 seconds
-Domain Reload Profiling: 1661ms
-	BeginReloadAssembly (280ms)
+- Finished resetting the current domain, in  0.682 seconds
+Domain Reload Profiling: 1502ms
+	BeginReloadAssembly (251ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (101ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (165ms)
-	LoadAllAssembliesAndSetupDomain (334ms)
-		LoadAssemblies (274ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (146ms)
+	LoadAllAssembliesAndSetupDomain (320ms)
+		LoadAssemblies (247ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (330ms)
-			TypeCache.Refresh (326ms)
-				TypeCache.ScanAssembly (296ms)
+		AnalyzeDomain (315ms)
+			TypeCache.Refresh (313ms)
+				TypeCache.ScanAssembly (285ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (752ms)
+	FinalizeReload (683ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (589ms)
+		SetupLoadedEditorAssemblies (546ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (22ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (21ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (386ms)
-			ProcessInitializeOnLoadMethodAttributes (148ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,92 +115,92 @@ Domain Reload Profiling: 1661ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file data-000001560C44E0B0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001C201975E30 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C478A40 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file data-000001C1E0184260 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EAD1D1D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file data-000001C1E01F23F0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EAD1D1D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001C1E01F23F0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560CE40620 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file data-000001C201975E30 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C47EE50 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file data-000001C1E01F23F0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C3C6030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001C1E01F23F0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560CE40620 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001C201975E30 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560DDB2240 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001C201975E30 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EA1387C0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001C1E0214600 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EA1387C0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001C1E022C410 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C3C6030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-000001C201E76020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560DDB2240 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file data-000001C1E023E620 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C487260 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file data-000001C1DF563B00 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C3C6030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-000001C201E7E430 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C487260 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001C201E91840 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C4151C0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001C201EC6E60 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C4151C0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001C201ED16F0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560CE8F620 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-000001C1DFD8A220 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C4151C0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-000001C1DFD8A220 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C4151C0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001C1DFD8FE30 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C4207D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001C201ED16F0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560CE8F620 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001C201ED16F0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C4207D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file data-000001C201EEAF00 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EA30E180 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001C201EEAF00 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560DBB6630 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-000001C201CBF440 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560CEB3430 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001C1DFD8FE30 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EA30E180 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-000001C202093430 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C4207D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-000001C2020B4640 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C4207D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-000001C2020B4640 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EAB8D3E0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file data-000001C1DFEA7FB0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EA343640 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001C1DF6ECEA0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C4207D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001C201EF2F10 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C4207D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-000001C2020B4640 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C7A9650 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000001C201EF2F10 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EAAC4010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001C202469010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C7A9650 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001C2024CA420 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EAB25420 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001C202502E30 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560CB87790 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file data-000001C1DF6277F0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560CCEEA40 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-000001C1DFF520D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560CCFA850 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001C1DF83F870 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560CD1BE70 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001C1DF899AA0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.768 seconds
-Refreshing native plugins compatible for Editor in 11.27 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.699 seconds
+Refreshing native plugins compatible for Editor in 14.38 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
@@ -224,47 +224,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.982 seconds
-Domain Reload Profiling: 4744ms
-	BeginReloadAssembly (405ms)
+- Finished resetting the current domain, in  2.763 seconds
+Domain Reload Profiling: 4455ms
+	BeginReloadAssembly (380ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (91ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (103ms)
-	LoadAllAssembliesAndSetupDomain (1130ms)
-		LoadAssemblies (749ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (102ms)
+	LoadAllAssembliesAndSetupDomain (1116ms)
+		LoadAssemblies (846ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (618ms)
-			TypeCache.Refresh (551ms)
-				TypeCache.ScanAssembly (515ms)
-			ScanForSourceGeneratedMonoScriptInfo (54ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (2983ms)
+		AnalyzeDomain (516ms)
+			TypeCache.Refresh (446ms)
+				TypeCache.ScanAssembly (409ms)
+			ScanForSourceGeneratedMonoScriptInfo (58ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (2764ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2563ms)
+		SetupLoadedEditorAssemblies (2316ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (13ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (12ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (198ms)
-			ProcessInitializeOnLoadAttributes (2209ms)
-			ProcessInitializeOnLoadMethodAttributes (111ms)
+			BeforeProcessingInitializeOnLoad (229ms)
+			ProcessInitializeOnLoadAttributes (1929ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
 			AfterProcessingInitializeOnLoad (14ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 16.44 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 14.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4195 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 65 unused Assets / (62.3 KB). Loaded Objects now: 4679.
-Memory consumption went from 166.2 MB to 166.1 MB.
-Total: 29.611900 ms (FindLiveObjects: 0.529900 ms CreateObjectMapping: 0.278000 ms MarkObjects: 28.472000 ms  DeleteObjects: 0.330200 ms)
+Unloading 4194 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (62.3 KB). Loaded Objects now: 4678.
+Memory consumption went from 166.1 MB to 166.1 MB.
+Total: 29.680500 ms (FindLiveObjects: 0.514800 ms CreateObjectMapping: 0.285600 ms MarkObjects: 28.592500 ms  DeleteObjects: 0.283500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -280,141 +280,101 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 319.441259 seconds.
-  path: Assets/picture/1015010401.png
-  artifactKey: Guid(db89d7565057c9c4887d4a05d5f07a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/picture/1015010401.png using Guid(db89d7565057c9c4887d4a05d5f07a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d8ca572a45f45d205b81d227dd7343') in 0.224468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/Scenes/Title scene.unity
-  artifactKey: Guid(2f6ec8c5470db6c409c6d31e8fc0f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Title scene.unity using Guid(2f6ec8c5470db6c409c6d31e8fc0f7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f91588cbb33de3885bfeabfa0f82398') in 0.001358 seconds
+  Time since last request: 29975.350579 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(ab2055e5a0c578a439f39024d77959d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(ab2055e5a0c578a439f39024d77959d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46dcf4b7cc7f81410912ad8f4f7a690b') in 0.003622 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/picture/pipo-map001_at-yama3_0.asset
-  artifactKey: Guid(6b9d7127e510572418daa2f8cb9a36d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/picture/pipo-map001_at-yama3_0.asset using Guid(6b9d7127e510572418daa2f8cb9a36d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a171b9bb4fd203be510d1faed14342b') in 0.043023 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 17.03 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 4689.
-Memory consumption went from 100.3 MB to 100.3 MB.
-Total: 26.689300 ms (FindLiveObjects: 0.840400 ms CreateObjectMapping: 0.347500 ms MarkObjects: 25.450600 ms  DeleteObjects: 0.048500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-Symbol file data-000001560DE257D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001C1DFE7EA50 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EA87C050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file data-000001C20D3B6030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015615DB8010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file data-000001C2025E9010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000156174F3060 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001C2025E9010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C90D020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file data-000001C1DF815660 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000156172C2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file data-000001C1E04819D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001561794B050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001C20B53B020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560CE40620 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001C1DFDB2600 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560DE257D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001C1DFDB2600 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560CF6A830 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001C1E04819D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C6180A0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001C1DF815660 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000156174F3060 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-000001C20EDC5250 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560DE257D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file data-000001C1DFDB2600 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560E358010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file data-000001C202623030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EAD1D1D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-000001C1E01DCFE0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000156172C2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001C20B519E70 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EAD829F0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-000001C1E03FF010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EAD829F0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001C20DB26010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000156174F3060 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-000001C20B765070 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015617288020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-000001C20DB26010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560E739E30 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001C20330D010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000156168AD010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-000001C20B725040 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015617288020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001C20DB26010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000156168AD010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file data-000001C20B725040 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EAE8ADB0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001C1E026B330 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560E739E30 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-000001C20E1ED2A0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155E9821620 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001C20E1ED2A0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000015618EDAE50 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-000001C20E708E50 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000156168AD010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-000001C20E9B9010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000156172A1830 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-000001C20DB3F820 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000156199B5030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file data-000001C20E25C040 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155E9821620 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-000001C20DB3F820 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001565AB65020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001C1DFD85420 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001565AB65020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-000001C1DFD85420 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000156168B3A20 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000001C201BC7920 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560C442020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-000001C20DF43030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560E4C5020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001C201F14020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000155EAD829F0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001C1E03FF010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001560E4FDA30 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file data-000001C1DFF59420 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000156172A1830 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-000001C20DB3F820 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000156172A1830 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001C20DB3F820 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000156177D1970 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-000001C20EDF2860 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.202 seconds
-Refreshing native plugins compatible for Editor in 16.25 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.309 seconds
+Refreshing native plugins compatible for Editor in 16.95 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
@@ -437,46 +397,46 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  4.036 seconds
-Domain Reload Profiling: 5229ms
-	BeginReloadAssembly (434ms)
+- Finished resetting the current domain, in  3.891 seconds
+Domain Reload Profiling: 5194ms
+	BeginReloadAssembly (626ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (28ms)
+		DisableScriptedObjects (33ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (110ms)
-	RebuildCommonClasses (65ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (584ms)
-		LoadAssemblies (739ms)
+		CreateAndSetChildDomain (97ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (508ms)
+		LoadAssemblies (863ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (29ms)
-			TypeCache.Refresh (14ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (13ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (4037ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (3893ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1723ms)
+		SetupLoadedEditorAssemblies (1617ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (207ms)
-			ProcessInitializeOnLoadAttributes (1366ms)
-			ProcessInitializeOnLoadMethodAttributes (112ms)
+			BeforeProcessingInitializeOnLoad (214ms)
+			ProcessInitializeOnLoadAttributes (1273ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
 			AfterProcessingInitializeOnLoad (17ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (44ms)
-Refreshing native plugins compatible for Editor in 15.83 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (37ms)
+Refreshing native plugins compatible for Editor in 11.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4170 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 37 unused Assets / (35.7 KB). Loaded Objects now: 4694.
-Memory consumption went from 166.5 MB to 166.5 MB.
-Total: 29.474200 ms (FindLiveObjects: 0.748600 ms CreateObjectMapping: 0.341800 ms MarkObjects: 28.154400 ms  DeleteObjects: 0.224800 ms)
+Unloading 4168 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (35.7 KB). Loaded Objects now: 4684.
+Memory consumption went from 161.8 MB to 161.8 MB.
+Total: 21.656600 ms (FindLiveObjects: 0.434900 ms CreateObjectMapping: 0.297600 ms MarkObjects: 20.769300 ms  DeleteObjects: 0.153200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -493,8 +453,1506 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: �X���b�h�̏I���܂��̓A�v���P�[�V�����̗v���ɂ���āAI/O �����͒��~����܂����B
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C1DFB5F010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2017A3310 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201740090 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFB5F010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D766030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20EDC5250 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFB5F010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E673C20 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2500AA020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFCDBF90 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201740090 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E673C20 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2031C3230 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DECCA030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFCDBF90 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B8AB030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2017A3310 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFD9CDF0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2500AA020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D766030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C24FFB4020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D766030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E026B330 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D766030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D76A840 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2032A5010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E9B9010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFDD9E60 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFE00470 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D3B6030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFE00470 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFE05260 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20DF43030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201ECA020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFE05260 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFE05260 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFD89420 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BF1E030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.083 seconds
+Refreshing native plugins compatible for Editor in 9.99 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.759 seconds
+Domain Reload Profiling: 4835ms
+	BeginReloadAssembly (445ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (76ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (608ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (3760ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1620ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (226ms)
+			ProcessInitializeOnLoadAttributes (1276ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 12.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4169 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (35.6 KB). Loaded Objects now: 4689.
+Memory consumption went from 164.0 MB to 164.0 MB.
+Total: 22.761800 ms (FindLiveObjects: 0.629900 ms CreateObjectMapping: 0.263400 ms MarkObjects: 21.741400 ms  DeleteObjects: 0.125500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C20DF37010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E1E52A0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2017A3310 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2500AA020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E344020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D766030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C25013B020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E344020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E344020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E0407020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFCDBF90 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2500AA020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20EAC9220 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E344020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DECCA030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D519060 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B249010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2031A1020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFD9CDF0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2500E1630 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E274060 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D591020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E0086030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E0086030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BF1E030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2038C3010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2038C9A20 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D52D0C0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E0086030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E9B9010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E9B9010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2038C9A20 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20DF43030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2017A3310 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B1E8420 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2020BAA20 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2020BAA20 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20DCB3010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.126 seconds
+Refreshing native plugins compatible for Editor in 11.43 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.748 seconds
+Domain Reload Profiling: 4868ms
+	BeginReloadAssembly (421ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (89ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (516ms)
+		LoadAssemblies (697ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (25ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (3750ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1544ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (204ms)
+			ProcessInitializeOnLoadAttributes (1225ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 14.14 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4169 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (35.7 KB). Loaded Objects now: 4694.
+Memory consumption went from 165.9 MB to 165.9 MB.
+Total: 29.578600 ms (FindLiveObjects: 1.046300 ms CreateObjectMapping: 0.497700 ms MarkObjects: 27.879500 ms  DeleteObjects: 0.153000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C203998010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E25C040 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C202082010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C203998010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D766030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C25028F010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C203998010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C203998010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D766030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFCDBF90 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C202082010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20EAC9220 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C203521010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E042C7C0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D519060 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B249010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2031A1020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFD9CDF0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E047F5D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B064010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E047F5D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E026B330 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2031C4E30 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E047F5D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2032A5010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E047F5D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E0485FE0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C24FFB4020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E0485FE0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2021B5C60 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2021B5C60 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E0485FE0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20DF43030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2017A3310 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E38E010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2020BAA20 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2020BAA20 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B37D010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.071 seconds
+Refreshing native plugins compatible for Editor in 10.68 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.980 seconds
+Domain Reload Profiling: 5044ms
+	BeginReloadAssembly (385ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (86ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (493ms)
+		LoadAssemblies (654ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (3982ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1705ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (218ms)
+			ProcessInitializeOnLoadAttributes (1335ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (42ms)
+Refreshing native plugins compatible for Editor in 13.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4169 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (35.7 KB). Loaded Objects now: 4699.
+Memory consumption went from 167.9 MB to 167.8 MB.
+Total: 26.755000 ms (FindLiveObjects: 0.573400 ms CreateObjectMapping: 0.293600 ms MarkObjects: 25.730900 ms  DeleteObjects: 0.153900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C20D4BC050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E25C040 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C202082010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D4BC050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201F14020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20EDC5250 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D4BC050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D4BC050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D6AD030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2021B5C60 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C202082010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D4BC050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201972020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E042C7C0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201972020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B249010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2031A1020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFD9CDF0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D766030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B064010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E026B330 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E0082830 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BF1E030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DE65B0E0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DE65B0E0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E7BB020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DE65B0E0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E047F5D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DE65B0E0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DE65FED0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20DF43030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E25C040 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E38E010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E395E20 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E395E20 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B37D010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.113 seconds
+Refreshing native plugins compatible for Editor in 13.76 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.802 seconds
+Domain Reload Profiling: 4905ms
+	BeginReloadAssembly (393ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (546ms)
+		LoadAssemblies (689ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (3803ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1557ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (185ms)
+			ProcessInitializeOnLoadAttributes (1219ms)
+			ProcessInitializeOnLoadMethodAttributes (111ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Refreshing native plugins compatible for Editor in 14.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4169 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (35.7 KB). Loaded Objects now: 4704.
+Memory consumption went from 169.8 MB to 169.8 MB.
+Total: 30.941200 ms (FindLiveObjects: 0.821100 ms CreateObjectMapping: 0.272800 ms MarkObjects: 29.639800 ms  DeleteObjects: 0.204400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C20D4BC050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2501D1010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C202082010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D4BC050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFF520D0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20EDC5250 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D4BC050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E673C20 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D6AD030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D6AD030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C202082010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E673C20 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFE7EA50 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E042C7C0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BECC030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B8AB030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2031A1020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFD9CDF0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E344020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BECC030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BE52020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BECC030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D591020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C203521010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BECC030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BF1E030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DE65B0E0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201972020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E7BB020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201972020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201AF5230 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201F14020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C24FFDA020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20DF43030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2501D1010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D766030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DE65B0E0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B37D010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.006 seconds
+Refreshing native plugins compatible for Editor in 12.55 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.775 seconds
+Domain Reload Profiling: 4776ms
+	BeginReloadAssembly (388ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (442ms)
+		LoadAssemblies (615ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (3776ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1618ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (188ms)
+			ProcessInitializeOnLoadAttributes (1276ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Refreshing native plugins compatible for Editor in 14.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4169 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (35.8 KB). Loaded Objects now: 4709.
+Memory consumption went from 171.8 MB to 171.7 MB.
+Total: 31.222000 ms (FindLiveObjects: 0.908700 ms CreateObjectMapping: 0.247800 ms MarkObjects: 29.939700 ms  DeleteObjects: 0.123800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C203998010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2501D1010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201740090 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C203998010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D766030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20EDC5250 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C203998010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C203998010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B51D020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B51D020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C202082010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E2C8230 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20DF37010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E042C7C0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DF815660 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B249010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2031A1020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFD9CDF0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D519060 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D519060 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20DD27010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D519060 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E026B330 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E0082830 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BF1E030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C24FF400B0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C24FF400B0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B415010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C24FF400B0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BBC1020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C24FF400B0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C24FF44EA0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20DF43030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2501D1010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BBC1020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201AF5230 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DF6204A0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B37D010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.162 seconds
+Refreshing native plugins compatible for Editor in 20.16 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.410 seconds
+Domain Reload Profiling: 4565ms
+	BeginReloadAssembly (391ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (82ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (584ms)
+		LoadAssemblies (709ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (57ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (3411ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1243ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (977ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 12.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4169 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (35.8 KB). Loaded Objects now: 4714.
+Memory consumption went from 173.7 MB to 173.7 MB.
+Total: 24.237000 ms (FindLiveObjects: 0.626000 ms CreateObjectMapping: 0.291500 ms MarkObjects: 23.169000 ms  DeleteObjects: 0.148700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C201AC3050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2017A3310 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201740090 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201AC3050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D766030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20EDC5250 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201AC3050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201AC3050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D6AD030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D6AD030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201740090 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D2E8230 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D922010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C203A6F010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFCDBF90 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E008EE80 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2031A1020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFD9CDF0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DF815660 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DF815660 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D7C8010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BF040B0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFDC8020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BF040B0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BF088C0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BF1E030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201F46020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D766030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E7BB020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BF088C0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201AF5230 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D766030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20DF43030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2017A3310 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B6BF010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201F4D370 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201F4D370 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B37D010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.114 seconds
+Refreshing native plugins compatible for Editor in 13.46 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.606 seconds
+Domain Reload Profiling: 4713ms
+	BeginReloadAssembly (397ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (32ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (81ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (539ms)
+		LoadAssemblies (651ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (66ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (28ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (3606ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1408ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (184ms)
+			ProcessInitializeOnLoadAttributes (1094ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 14.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4169 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (35.8 KB). Loaded Objects now: 4719.
+Memory consumption went from 175.6 MB to 175.6 MB.
+Total: 23.647300 ms (FindLiveObjects: 0.769000 ms CreateObjectMapping: 0.480100 ms MarkObjects: 22.230200 ms  DeleteObjects: 0.166300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C1DFB5F010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2017A3310 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201740090 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFB5F010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D766030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20EDC5250 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFB5F010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFB5F010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B51D020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B51D020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201740090 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E2C8230 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E3A6030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201898010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFCDBF90 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B8AB030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2031A1020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2026E17E0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E86F030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFCDBF90 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D7C8010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E1C80B0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D591020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DF815660 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DF819E70 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BF1E030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B6BF010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BF040B0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E002C010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BF040B0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201D90020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D519060 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20DF43030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2017A3310 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201D90020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B6C6360 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B6C6360 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2032AD020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.077 seconds
+Refreshing native plugins compatible for Editor in 13.24 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.979 seconds
+Domain Reload Profiling: 5050ms
+	BeginReloadAssembly (401ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (90ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (512ms)
+		LoadAssemblies (671ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (3980ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1665ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (169ms)
+			ProcessInitializeOnLoadAttributes (1349ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Refreshing native plugins compatible for Editor in 17.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4169 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (35.8 KB). Loaded Objects now: 4724.
+Memory consumption went from 177.5 MB to 177.5 MB.
+Total: 26.359200 ms (FindLiveObjects: 0.778200 ms CreateObjectMapping: 0.284900 ms MarkObjects: 25.139100 ms  DeleteObjects: 0.155100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file data-000001C20DF8D020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B6BF010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFBAD010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201740090 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20DF8D020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.BurstCompatibilityGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D766030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20EDC5250 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20DF8D020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20DF8D020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B51D020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E007E020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201740090 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20D2E8230 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.DocCodeSamples.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DF8FA020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E61A010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFCDBF90 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2032AD020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C2031A1020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFD9CDF0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFB5F010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFCDBF90 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B4EB010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E1C80B0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFDC8020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DFB5F010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20BE6A040 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C203AD5020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B6BF010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E48C050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E002C010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Collections.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E48C050 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C201AF5230 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E66CE20 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C203521010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DF78D020 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1E002C010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20CFF2010 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C1DF815660 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.Burst.CodeGen.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E1C80B0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20E1C80B0 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001C20B8AB030 doesn't match image C:\Users\keita\OneDrive\ドキュメント\GitHub\mediacontents\game\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.070 seconds
+Refreshing native plugins compatible for Editor in 14.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <a56b0e0931d94d3889eac02ea3fd2470>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.863 seconds
+Domain Reload Profiling: 4929ms
+	BeginReloadAssembly (396ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (85ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (491ms)
+		LoadAssemblies (667ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (24ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (3865ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1654ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (1323ms)
+			ProcessInitializeOnLoadMethodAttributes (112ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (42ms)
+Refreshing native plugins compatible for Editor in 21.12 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4169 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (35.9 KB). Loaded Objects now: 4729.
+Memory consumption went from 179.5 MB to 179.4 MB.
+Total: 27.957300 ms (FindLiveObjects: 0.568100 ms CreateObjectMapping: 0.491800 ms MarkObjects: 26.740400 ms  DeleteObjects: 0.154900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

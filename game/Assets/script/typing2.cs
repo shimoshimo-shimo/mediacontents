@@ -59,6 +59,7 @@ public class typing2 : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return)) // Enterキーが押された場合
         {
             CheckInputAndUpdateSlider();
+            m8Text.text = "";
         }
 
         // キーが押されている場合、m8Textに入力された文字列を表示
