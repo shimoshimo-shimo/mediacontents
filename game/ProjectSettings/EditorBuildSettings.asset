@@ -14,7 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/typing scene.unity
     guid: 3d993da4300b1714ab953f00f41604dd
-  - enabled: 1
+  - enabled: 0
     path: "Assets/Scenes/\u3042.unity"
     guid: fb5a9390daa8ba64e9dc9d9deadb25e0
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: ab2055e5a0c578a439f39024d77959d6
   m_configObjects: {}

@@ -43,7 +43,7 @@ public class Inbattle : MonoBehaviour
         objectToDeactivate.SetActive(false);
         pos.playerpos.Savepos();
         // シーンをロード
-        SceneManager.LoadScene("あ");
+        SceneManager.LoadScene("SampleScene");
     }
 }
 
