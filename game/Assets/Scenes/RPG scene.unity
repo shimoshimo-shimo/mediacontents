@@ -253,7 +253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95f8c2c407c3c6140b0f03b5d72947e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound1: {fileID: 8300000, guid: 4f217a1c5e1c96b4f8a75db457faf76c, type: 3}
+  sound1: {fileID: 8300000, guid: 1d121077900680a4392591c27d55573d, type: 3}
   objectToDeactivate: {fileID: 346718837}
 --- !u!61 &346718841
 BoxCollider2D:
@@ -704,8 +704,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95f8c2c407c3c6140b0f03b5d72947e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sound1: {fileID: 8300000, guid: 4f217a1c5e1c96b4f8a75db457faf76c, type: 3}
-  objectToDeactivate: {fileID: 0}
+  sound1: {fileID: 8300000, guid: 1d121077900680a4392591c27d55573d, type: 3}
+  objectToDeactivate: {fileID: 654953076}
 --- !u!61 &654953080
 BoxCollider2D:
   m_ObjectHideFlags: 0

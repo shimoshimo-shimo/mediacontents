@@ -1,17 +1,17 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AnimationStateController
     - AudioConfig
     - BtnCtrl_H
     - BtnCtrl_V
     - HP_text
     - Inbattle
+    - MajoController
     - PanelCtrl
     - SliderController
+    - arrowmove
     - camera
     - game_stats
-    - movement
     - typing2
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -22,21 +22,13 @@ ScriptsOnlyBuild:
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrush
-    - UnityEditor.Tilemaps.GridBrushEditor
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
-    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
-    Unity.2D.Tilemap.Extras.Editor.dll:
-    - UnityEditor.Tilemaps.GameObjectBrush
-    - UnityEditor.Tilemaps.GroupBrush
-    - UnityEditor.Tilemaps.LineBrush
-    - UnityEditor.Tilemaps.RandomBrush
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.TextMeshPro:
@@ -46,6 +38,12 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     Unity.VisualScripting.Flow.dll:
     - Unity.VisualScripting.ScriptGraphAsset
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -110,6 +108,9 @@ ScriptsOnlyBuild:
     methodName: ShowStartConfirm
   - assembly: Assembly-CSharp
     fullTypeName: PanelCtrl
+    methodName: ShowReadmePanel
+  - assembly: Assembly-CSharp
+    fullTypeName: PanelCtrl
     methodName: GoQuit
   - assembly: Assembly-CSharp
     fullTypeName: PanelCtrl
@@ -157,11 +158,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4562}
     - Class: 114
-      Script: {instanceID: 6216}
+      Script: {instanceID: 7260}
     - Class: 114
-      Script: {instanceID: 7258}
-    - Class: 114
-      Script: {instanceID: 9074}
+      Script: {instanceID: 9076}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -210,15 +209,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3196}
     - Class: 114
-      Script: {instanceID: 6074}
+      Script: {instanceID: 6076}
     - Class: 114
-      Script: {instanceID: 6516}
+      Script: {instanceID: 6518}
     - Class: 114
-      Script: {instanceID: 6904}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7550}
+      Script: {instanceID: 7552}
     - Class: 114
-      Script: {instanceID: 26734}
+      Script: {instanceID: 27848}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -277,31 +276,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3560}
     - Class: 114
-      Script: {instanceID: 4888}
+      Script: {instanceID: 4814}
     - Class: 114
-      Script: {instanceID: 5086}
+      Script: {instanceID: 4890}
     - Class: 114
-      Script: {instanceID: 5220}
+      Script: {instanceID: 5088}
     - Class: 114
-      Script: {instanceID: 6074}
+      Script: {instanceID: 5222}
     - Class: 114
-      Script: {instanceID: 6082}
+      Script: {instanceID: 6076}
     - Class: 114
-      Script: {instanceID: 6168}
+      Script: {instanceID: 6084}
     - Class: 114
-      Script: {instanceID: 6516}
+      Script: {instanceID: 6170}
     - Class: 114
-      Script: {instanceID: 6592}
+      Script: {instanceID: 6518}
     - Class: 114
-      Script: {instanceID: 6904}
+      Script: {instanceID: 6594}
     - Class: 114
-      Script: {instanceID: 7534}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7550}
+      Script: {instanceID: 7536}
     - Class: 114
-      Script: {instanceID: 7576}
+      Script: {instanceID: 7552}
     - Class: 114
-      Script: {instanceID: 8092}
+      Script: {instanceID: 7578}
+    - Class: 114
+      Script: {instanceID: 8094}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -352,13 +353,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3196}
     - Class: 114
-      Script: {instanceID: 6516}
+      Script: {instanceID: 6518}
     - Class: 114
-      Script: {instanceID: 6904}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 7042}
+      Script: {instanceID: 7044}
     - Class: 114
-      Script: {instanceID: 7550}
+      Script: {instanceID: 7552}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -490,7 +491,7 @@ ScriptsOnlyBuild:
     className: CinemachinePixelPerfect
   - hash:
       serializedVersion: 2
-      Hash: a1484b483dd34620fd6caef82a0390ae
+      Hash: 581aec9f93c8676f9ec0b86d0c22b671
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: typing2
@@ -832,6 +833,12 @@ ScriptsOnlyBuild:
     className: PhysicsRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: arrowmove
+  - hash:
+      serializedVersion: 2
       Hash: 98db835dd0659d490ded675102354289
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -1072,7 +1079,7 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: 99d63aa0dd21455efc6515a9c7ffc39f
+      Hash: f69f9afb0d2606a2b31ea20a3e9a8095
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PanelCtrl
@@ -1363,7 +1370,7 @@ ScriptsOnlyBuild:
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: AnimationStateController
+    className: MajoController
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1472,4 +1479,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/RPG scene.unity
   - Assets/Scenes/typing scene.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/tubas/Downloads/typing game/m.exe
+  playerPath: "C:/Users/tubas/Downloads/\u30B0\u30EB\u30FC\u30D75\uFF3F\u30B2\u30FC\u30E0/game.exe"
