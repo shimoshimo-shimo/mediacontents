@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class cameraManager : MonoBehaviour
+public class camera : MonoBehaviour
 {
 
     public GameObject target; // 追従する対象を決める変数
@@ -40,5 +41,62 @@ public class cameraManager : MonoBehaviour
         cameraPos.z = -10; // カメラの奥行きの位置に-10を入れる
         Camera.main.gameObject.transform.position = cameraPos; //　カメラの位置に変数cameraPosの位置を入れる
 
+        
+        
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+           SceneManager.LoadScene("Title scene");
+        }
+
+        
+    }
+}
+namespace pos
+{
+    public static class playerpos
+    {
+        public static float x;
+        public static float y;
+
+
+
+        public static void Savepos()
+        {
+            GameObject playerObject = GameObject.Find("pipo-charachip029_0");
+
+            if (playerObject != null)
+            {
+                Vector3 worldPos = playerObject.transform.position;
+                Debug.Log($"Savepos - 取得した座標: {worldPos}");
+
+                x = worldPos.x;
+                y = worldPos.y;
+                PlayerPrefs.SetFloat("X", x-1);
+                PlayerPrefs.SetFloat("Y", y-1);
+
+                Debug.Log($"Savepos - 保存した座標: {x}, {y}");
+            }
+            else
+            {
+                Debug.LogError("プレイヤーオブジェクトが見つかりませんでした。");
+            }
+        }
+
+        public static void Loadpos()
+        {
+            x = PlayerPrefs.GetFloat("X", 0);
+            y = PlayerPrefs.GetFloat("Y", -3);
+
+            Debug.Log($"Loadpos - 読み込んだ座標: {x}, {y}");
+
+            GameObject playerObject = GameObject.Find("pipo-charachip029_0");
+            GameObject gaga = GameObject.Find("pipo-charachip019_0");
+
+            // プレイヤーオブジェクトの座標を設定
+            playerObject.transform.position = new Vector3(x, y);
+
+            
+           
+        }
     }
 }

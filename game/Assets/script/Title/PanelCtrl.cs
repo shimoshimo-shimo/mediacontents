@@ -20,6 +20,17 @@ public class PanelCtrl : MonoBehaviour
         QuitConfirm.SetActive(false);
     }
 
+    //オプションパネルを閉じる　仮の手段
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            HideOptionPanel();
+
+
+        }
+    }
+
 
     // 【　オプションパネル　】
     public void ShowOptionPanel()

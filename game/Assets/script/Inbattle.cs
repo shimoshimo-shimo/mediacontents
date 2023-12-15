@@ -7,11 +7,11 @@ public class Inbattle : MonoBehaviour
     public AudioClip sound1;
     AudioSource audioSource;
 
+
     // Use this for initialization
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-
     }
 
     // Update is called once per frame
@@ -26,14 +26,26 @@ public class Inbattle : MonoBehaviour
         StartCoroutine(WaitAndLoadScene());
     }
 
+    public GameObject objectToDeactivate;
+
     IEnumerator WaitAndLoadScene()
     {
-        yield return new WaitForSeconds(1.0f);
+        // 座標保存
+        
 
-        //if (collision.gameObject.name == "pipo-charachip029_0")
+        // 非アクティブにしたいオブジェクトを DontDestroyOnLoad で指定
+        DontDestroyOnLoad(objectToDeactivate);
 
-        SceneManager.LoadScene("typing scene");
+        // 待機
+        yield return new WaitForSeconds(0.6f);
 
+        // オブジェクトを非アクティブにする
+        objectToDeactivate.SetActive(false);
+        pos.playerpos.Savepos();
+        // シーンをロード
+        SceneManager.LoadScene("あ");
     }
 }
+
+
 

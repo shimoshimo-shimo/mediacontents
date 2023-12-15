@@ -19,6 +19,6 @@ public class Loadscene : MonoBehaviour
 		{
 			SceneManager.LoadScene("RPG scene");//some_senseiシーンをロードする
 		}
-
+		
 	}
 }
