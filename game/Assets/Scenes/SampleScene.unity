@@ -783,7 +783,7 @@ RectTransform:
   m_GameObject: {fileID: 877433367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 360157844}
@@ -1301,7 +1301,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: "\u9B54\u6CD5\u3092\u9078\u629E"
 --- !u!222 &1668349721
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1530,6 +1530,7 @@ MonoBehaviour:
   m7Text: {fileID: 1668349720}
   m8Text: {fileID: 1773020772}
   mslider: {fileID: 633350687}
+  flag: 0
 --- !u!1 &2136336031
 GameObject:
   m_ObjectHideFlags: 0
