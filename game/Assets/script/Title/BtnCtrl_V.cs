@@ -8,34 +8,49 @@ public class BtnCtrl_V : MonoBehaviour
     public Button[] buttons; // 3つのボタンを割り当てる
     private int currentIndex = 0;
 
+    public GameObject OptionPanel;
+    public GameObject StartConfirm;
+    public GameObject QuitConfirm;
+
+
 
     private void Start()
     {
-
         UpdateButtonColors();
     }
+
+
 
     private void Update()
     {
 
-        // ↑キーと↓キーでボタンを選択
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        // いずれかのパネルがアクティブの場合は処理をスキップ
+        if (OptionPanel.activeSelf || StartConfirm.activeSelf || QuitConfirm.activeSelf)
         {
-            currentIndex = (currentIndex - 1 + buttons.Length) % buttons.Length;
-            UpdateButtonColors();
-        }
-        else if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            currentIndex = (currentIndex + 1) % buttons.Length;
-            UpdateButtonColors();
+            return;
+            Debug.Log("いずれかのパネルが作動中");
         }
 
-        // Enterキー || スペースキーでボタンを選択
-        if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space))
-        {
-            // ボタンのクリックをシミュレート
-            buttons[currentIndex].onClick.Invoke();
-        }
+
+            // ↑キーと↓キーでボタンを選択
+            if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                currentIndex = (currentIndex - 1 + buttons.Length) % buttons.Length;
+                UpdateButtonColors();
+            }
+            else if (Input.GetKeyDown(KeyCode.DownArrow))
+            {
+                currentIndex = (currentIndex + 1) % buttons.Length;
+                UpdateButtonColors();
+            }
+
+            // Enterキー || スペースキーでボタンを選択
+            if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.Space))
+            {
+                // ボタンのクリックをシミュレート
+                buttons[currentIndex].onClick.Invoke();
+            }
+
     }
 
     private void UpdateButtonColors()

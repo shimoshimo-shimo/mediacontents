@@ -5,6 +5,9 @@ public class SliderController : MonoBehaviour
 {
     public Slider bgmSlider;
     public Slider seSlider;
+    public Text bgmValueText;
+    public Text seValueText;
+
     private Slider activeSlider; // 現在アクティブなスライダー
 
     private float keyHoldTime = 0.0f; // キーが長押しされている時間
