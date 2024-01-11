@@ -3,46 +3,87 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement; // シーンマネジメントを使用するための追加
+using UnityEngine.SceneManagement;
 
 public class typing2 : MonoBehaviour
 {
-    [SerializeField] Text m1Text; // 発動前魔１
-    [SerializeField] Text m2Text; // 発動前魔２
-    [SerializeField] Text m3Text; // 発動前魔３
-    [SerializeField] Text m4Text; // 発動中魔１
-    [SerializeField] Text m5Text; // 発動中魔２
-    [SerializeField] Text m6Text; // 発動中魔３
-    [SerializeField] Text m7Text; // 入力する魔法
-    [SerializeField] Text m8Text; // 入力してる魔法
-    [SerializeField] Slider mslider;
+    [SerializeField] Text m1Text;//炎
+    [SerializeField] Text m2Text;//氷
+    [SerializeField] Text m3Text;//雷
+    [SerializeField] Text m4Text;
+    [SerializeField] Text m5Text;
+    [SerializeField] Text m6Text;
+    [SerializeField] Text m7Text;//問題
+    [SerializeField] Text m8Text;//回答欄
+    [SerializeField] Text m9Text;//敵体力表示
+    [SerializeField] Text m10Text;//味方体力
+    [SerializeField] Slider mslider;//敵体力
+    [SerializeField] Slider m2slider;//味方体力
+    [SerializeField] AudioClip m1BGM;//炎音
+    [SerializeField] AudioClip m2BGM;//氷音
+    [SerializeField] AudioClip m3BGM;//雷音
+    [SerializeField] AudioClip m4BGM;//文字打った音
+    [SerializeField] AudioClip m5BGM;//やられた音
+    [SerializeField] ParticleSystem m1effectParticleSystem;// シーン内のパーティクルシステムへの参照
+    [SerializeField] ParticleSystem m2effectParticleSystem;
+    [SerializeField] ParticleSystem m3effectParticleSystem;
+    [SerializeField] ParticleSystem m4effectParticleSystem;
 
-    private string[] _hatudou1 = { "1act", "1ice", "1mad", "1sue" }; // 3
-    private string[] _hatudou2 = { "2abortion", "2covenant", "2suppress", "2betrayal" }; // 8
-    private string[] _hatudou3 = { "3diversification", "3gastroenteritis", "3transfiguration" }; // 15
 
-    private bool isTyping = false; // キーが押されているかどうかを示すフラグ
-
+    private string[] _hatudou1 = { "1act", "1ice", "1mad", "1sue" };
+    private string[] _hatudou2 = { "2abo", "2cov", "2sup", "2bet" };
+    private string[] _hatudou3 = { "3div", "3gas", "3tra" };
+    private bool isTyping = false;
     public int flag;
 
-    // Start is called before the first frame update
+    // AudioSourceの追加
+    private AudioSource audioSource;
+
+
     void Start()
     {
         // 初期値を設定
-        m1Text.text = "弱攻撃";
-        m2Text.text = "中攻撃";
-        m3Text.text = "強攻撃";
+        m1Text.text = "①炎攻撃";
+        m2Text.text = "②氷攻撃";
+        m3Text.text = "③雷攻撃";
 
-        mslider.maxValue = 1000; // スライダーの最大値を1000に設定
-        mslider.value = mslider.maxValue; // ゲーム開始時にスライダーの値を最大に設定
+        mslider.maxValue = 1000;
+        mslider.value = mslider.maxValue;
+
+        m2slider.maxValue = 1000;
+        m2slider.value = m2slider.maxValue;
+
+        // m9Textにmsliderの初期値を表示
+        m9Text.text = $"{mslider.value}/{mslider.maxValue}";
+
+        // m10Textにm2sliderの初期値を表示
+        m10Text.text = $"{m2slider.value}/{m2slider.maxValue}";
 
         // Unityのランダム関数を初期化
         UnityEngine.Random.InitState((int)System.DateTime.Now.Ticks);
+
+        // AudioSourceの初期化
+        audioSource = gameObject.AddComponent<AudioSource>();
+
     }
 
-    // Update is called once per frame
+
+
     void Update()
     {
+
+        // m1sliderまたはm2sliderが0以下になったら終了
+        if (mslider.value <= 0 || m2slider.value <= 0)
+        {
+            EndGame();
+        }
+
+
+        // m9Textにmsliderの値を表示
+        m9Text.text = $"{mslider.value}/{mslider.maxValue}";
+
+        // m10Textにm2sliderの値を表示
+        m10Text.text = $"{m2slider.value}/{m2slider.maxValue}";
 
         // キーボードの1, 2, 3が押されたら対応する_hatudouのランダムな要素を表示
         if (Input.GetKeyDown(KeyCode.Alpha1))
@@ -61,44 +102,31 @@ public class typing2 : MonoBehaviour
             flag = 3;
         }
 
-        // m7Textに表示された文字列が正確に入力された場合、スライダーの値を10減少させる
-        if (Input.GetKeyDown(KeyCode.Return)) // Enterキーが押された場合
-        {
-            CheckInputAndUpdateSlider();
-            isTyping = true;
-            m8Text.text = "";
-        }
-
         // キーが押されている場合、m8Textに入力された文字列を表示
-        if (isTyping)
+        foreach (KeyCode keyCode in Enum.GetValues(typeof(KeyCode)))
         {
-            
-            foreach (KeyCode keyCode in Enum.GetValues(typeof(KeyCode)))
+            if ((keyCode >= KeyCode.Alpha0 && keyCode <= KeyCode.Alpha9) || keyCode == KeyCode.Return)
             {
-                // 数字キーは表示しない
-                if ((keyCode >= KeyCode.Alpha0 && keyCode <= KeyCode.Alpha9) || keyCode == KeyCode.Return)
-                {
-                    continue;
-                }
+                continue;
+            }
 
-                if (Input.GetKeyDown(keyCode))
+            if (Input.GetKeyDown(keyCode))
+            {
+                if (isTyping)
                 {
-                    m8Text.text += keyCode.ToString().ToLower(); // 小文字に変換して追加
+                    CheckInputAndUpdateSlider(keyCode.ToString().ToLower());
                 }
             }
         }
     }
 
-    // 配列からランダムな要素の最初の文字を取得して表示
     void DisplayRandomElement(string[] array)
     {
         if (array.Length > 0)
         {
             m8Text.text = "";
             int randomIndex = UnityEngine.Random.Range(0, array.Length);
-            // 最初の1文字以外を表示
             m7Text.text = array[randomIndex].Substring(1);
-            // タイピング開始
             isTyping = true;
             m8Text.text = "";
         }
@@ -108,87 +136,153 @@ public class typing2 : MonoBehaviour
         }
     }
 
-    void CheckInputAndUpdateSlider()
+    void CheckInputAndUpdateSlider(string inputText)
     {
-        // m8Text と m7Text が等しいか確認
-        if (m8Text.text == m7Text.text)
+        if (isTyping)
         {
-            // 入力が正確な場合、スライダーの値を10減少させる
-            mslider.value = Mathf.Max(0, mslider.value - 100);
+            if (m7Text.text.Length < m8Text.text.Length + 1)
+            {
+                // m7Text の文字数が足りない場合
+                Miss();
+                return;
+            }
 
-            // 正解時の処理を呼び出し
-            Correct();
+            if (m7Text.text[m8Text.text.Length] == inputText[0])
+            {
+                // m8Text の次の文字と入力文字が一致する場合
+                m8Text.text += inputText;
+
+                if (m8Text.text == m7Text.text)
+                {
+                    Correct();
+                    DecreaseM1Slider(); // 最後の文字まで正しく入力された場合、m1slider を減少
+                }
+                else
+                {
+                    // 正解時の音を再生
+                    audioSource.PlayOneShot(m4BGM);
+                }
+            }
+            else
+            {
+                // m8Text の次の文字が間違っている場合
+                Miss();
+            }
+
+            if (mslider.value <= 0)
+            {
+                m8Text.text = "";
+                m7Text.text = "";
+            }
         }
-        else
+    }
+
+    void Correct()
+    {
+        Debug.Log("正解");
+        m7Text.text = "";
+
+        if (flag == 1)
         {
-            // 不正解時の処理を呼び出し
-            Miss();
+            DisplayRandomElement(_hatudou1);
+            m8Text.text = "";
+            // 魔法1のBGMを再生
+            audioSource.PlayOneShot(m1BGM);
+            // m1BGMが再生されたときにパーティクルシステムを表示
+            InstantiateEffect(m1effectParticleSystem);
+        }
+        else if (flag == 2)
+        {
+            DisplayRandomElement(_hatudou2);
+            m8Text.text = "";
+            // 魔法2のBGMを再生
+            audioSource.PlayOneShot(m2BGM);
+            // m2BGMが再生されたときにパーティクルシステムを表示
+            InstantiateEffect(m2effectParticleSystem);
+        }
+        else if (flag == 3)
+        {
+            DisplayRandomElement(_hatudou3);
+            m8Text.text = "";
+            // 魔法3のBGMを再生
+            audioSource.PlayOneShot(m3BGM);
+            // m3BGMが再生されたときにパーティクルシステムを表示
+            InstantiateEffect(m3effectParticleSystem);
+        }
+    }
+
+    void Miss()
+    {
+        Debug.Log("不正解");
+        DecreaseM2Slider(); // 不正解時にm2sliderを減少
+
+        if (flag == 1)
+        {
+            DisplayRandomElement(_hatudou1);
+        }
+        else if (flag == 2)
+        {
+            DisplayRandomElement(_hatudou2);
+        }
+        else if (flag == 3)
+        {
+            DisplayRandomElement(_hatudou3);
         }
 
-        // タイピング終了
-        isTyping = false;
-        m8Text.text = "";
+        if (m8Text.text.Length > 0 && m7Text.text.Length > 0)
+        {
+            if (m8Text.text[m8Text.text.Length - 1] == m7Text.text[m7Text.text.Length - 1])
+            {
+                // 最後の文字が一致する場合、m1slider を減少
+                DecreaseM1Slider();
+            }
+        }
 
-
-        // スライダーが減少したら m8Text と m7Text をリセット
         if (mslider.value <= 0)
         {
             m8Text.text = "";
             m7Text.text = "";
-
-            // 新しいシーンを読み込む（ここでは"GameOverScene"を仮定）
-            //SceneManager.LoadScene("GameOverScene");
         }
     }
 
-    // 入力された文字列が正解かどうかを判定
-    bool IsCorrectInput(string inputText)
+    void DecreaseM1Slider()
     {
-        return Array.Exists(_hatudou1, element => element.Substring(1) == inputText) ||
-               Array.Exists(_hatudou2, element => element.Substring(1) == inputText) ||
-               Array.Exists(_hatudou3, element => element.Substring(1) == inputText);
-        m8Text.text = "";
+        mslider.value = Mathf.Max(0, mslider.value - 100);
     }
 
-    // 正解時の処理
-    void Correct()
+    void DecreaseM2Slider()
     {
-        Debug.Log("正解");
-        // ここに正解時の処理を追加
-        if (flag == 1)
-        {
-            DisplayRandomElement(_hatudou1);
-            m8Text.text = "";
-        }
-        else if (flag == 2)
-        {
-            DisplayRandomElement(_hatudou2);
-            m8Text.text = "";
-        }
-        else if (flag == 3)
-        {
-            DisplayRandomElement(_hatudou3);
-            m8Text.text = "";
-        }
+        float previousValue = m2slider.value;
 
+        // m2sliderの値を10減少させる（または0未満にならないようにする）
+        m2slider.value = Mathf.Max(0, m2slider.value - 100);
+
+        // 直前の値よりも小さい場合、m5BGMを再生
+        if (m2slider.value < previousValue)
+        {
+            audioSource.PlayOneShot(m5BGM);
+            // m5BGMが再生されたときにパーティクルシステムを表示
+            InstantiateEffect(m4effectParticleSystem);
+        }
+        // この後にコードが続く可能性があります（あれば）
     }
 
-    // 不正解時の処理
-    void Miss()
+    void EndGame()
     {
-        Debug.Log("不正解");
-        if (flag == 1)
+        // ゲーム終了処理をここに記述
+        // 例えば、RPG scene に遷移するなど
+
+        // RPG scene に遷移する場合
+        SceneManager.LoadScene("RPG scene");
+    }
+
+    void InstantiateEffect(ParticleSystem particleSystem)
+    {
+        // パーティクルシステムへの参照がnullでないことを確認
+        if (particleSystem != null)
         {
-            DisplayRandomElement(_hatudou1);
+            // パーティクルシステムを指定位置にインスタンス化（必要に応じて位置などを調整）
+            Instantiate(particleSystem, transform.position, Quaternion.identity);
         }
-        else if (flag == 2)
-        {
-            DisplayRandomElement(_hatudou2);
-        }
-        else if (flag == 3)
-        {
-            DisplayRandomElement(_hatudou3);
-        }
-        // ここに不正解時の処理を追加
     }
 }
