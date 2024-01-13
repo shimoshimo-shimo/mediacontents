@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class Inbattle : MonoBehaviour
+public class Inbattle2 : MonoBehaviour
 {
     public AudioClip sound1;
     AudioSource audioSource;
@@ -31,7 +31,7 @@ public class Inbattle : MonoBehaviour
     IEnumerator WaitAndLoadScene()
     {
         // 座標保存
-        
+
 
         // 非アクティブにしたいオブジェクトを DontDestroyOnLoad で指定
         DontDestroyOnLoad(objectToDeactivate);
@@ -43,7 +43,7 @@ public class Inbattle : MonoBehaviour
         objectToDeactivate.SetActive(false);
         pos.playerpos.Savepos();
         // シーンをロード
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Typing Scene 1");
     }
 }
 

@@ -3,7 +3,7 @@ using UnityEngine;
 public class MajoController : MonoBehaviour
 {
     Animator animator;
-    float moveSpeed = 5;
+    float moveSpeed = 4;
 
     private void Start()
     {

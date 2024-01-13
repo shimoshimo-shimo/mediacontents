@@ -12,12 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/RPG scene.unity
     guid: 9461eb7b8017cb744b1c9373b78ab8c9
   - enabled: 1
-    path: Assets/Scenes/typing scene.unity
-    guid: 3d993da4300b1714ab953f00f41604dd
+    path: Assets/Scenes/Typing Scene.unity
+    guid: ab2055e5a0c578a439f39024d77959d6
   - enabled: 0
     path: "Assets/Scenes/\u3042.unity"
     guid: fb5a9390daa8ba64e9dc9d9deadb25e0
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Typing Scene.unity
     guid: ab2055e5a0c578a439f39024d77959d6
+  - enabled: 1
+    path: Assets/Scenes/Typing Scene 1.unity
+    guid: e38509ee33e8df648956148d7378a35b
   m_configObjects: {}
