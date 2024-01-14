@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638382017810455829
+      ticks: 638408077757979205
     m_Hash: 1221340868
   m_LockFileStatus:
     m_FilePath: "C:/Users/tubas/OneDrive/\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8/GitHub/mediacontents/game/Packages/packages-lock.json"
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638382017810573164
+      ticks: 638408077757979205
     m_Hash: 777096944
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -155,6 +155,7 @@ m_ResolvedPackages:
     - 9.0.2
     - 9.0.3
     - 9.0.4
+    - 9.1.0
     - 10.0.0-pre.1
     - 10.0.0-pre.2
     - 10.0.0
@@ -164,6 +165,7 @@ m_ResolvedPackages:
     - 10.1.0
     compatible:
     - 9.0.4
+    - 9.1.0
     recommended: 9.0.4
     deprecated: []
   dependencies:
@@ -4012,6 +4014,7 @@ m_ResolvedPackages:
     - 8.0.1
     - 8.0.2
     - 8.0.3
+    - 8.0.4
     - 9.0.0-pre.1
     - 9.0.0-pre.2
     - 9.0.0
@@ -4019,7 +4022,8 @@ m_ResolvedPackages:
     compatible:
     - 8.0.2
     - 8.0.3
-    recommended: 8.0.3
+    - 8.0.4
+    recommended: 8.0.4
     deprecated: []
   dependencies:
   - name: com.unity.2d.animation
@@ -5045,11 +5049,13 @@ m_ResolvedPackages:
     - 1.8.9
     - 1.8.10
     - 1.8.11
+    - 1.8.12
     compatible:
     - 1.8.9
     - 1.8.10
     - 1.8.11
-    recommended: 1.8.11
+    - 1.8.12
+    recommended: 1.8.12
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
