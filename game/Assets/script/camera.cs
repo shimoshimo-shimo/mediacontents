@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class camera : MonoBehaviour
 {
+    
 
     public GameObject target; // 追従する対象を決める変数
     Vector3 pos;              // カメラの初期位置を記憶するための変数
@@ -57,6 +58,8 @@ namespace pos
     {
         public static float x;
         public static float y;
+        public static int a;
+        
 
 
 
@@ -71,10 +74,13 @@ namespace pos
 
                 x = worldPos.x;
                 y = worldPos.y;
+                a = a + 1;
                 PlayerPrefs.SetFloat("X", x-1);
                 PlayerPrefs.SetFloat("Y", y-1);
+                PlayerPrefs.SetInt("A", a);
 
                 Debug.Log($"Savepos - 保存した座標: {x}, {y}");
+                Debug.Log(a);
             }
             else
             {
@@ -84,19 +90,23 @@ namespace pos
 
         public static void Loadpos()
         {
-            x = PlayerPrefs.GetFloat("X", 0);
-            y = PlayerPrefs.GetFloat("Y", -3);
-
+            x = PlayerPrefs.GetFloat("X", -1);
+            y = PlayerPrefs.GetFloat("Y", -30);
+            a = PlayerPrefs.GetInt("A", 0);
+            
             Debug.Log($"Loadpos - 読み込んだ座標: {x}, {y}");
-
+            
             GameObject playerObject = GameObject.Find("pipo-charachip029_0");
             GameObject gaga = GameObject.Find("pipo-charachip019_0");
 
             // プレイヤーオブジェクトの座標を設定
             playerObject.transform.position = new Vector3(x, y);
 
-            
-           
+            if(a == 3)
+            {
+                SceneManager.LoadScene("Test scene");
+            }
         }
+        
     }
 }

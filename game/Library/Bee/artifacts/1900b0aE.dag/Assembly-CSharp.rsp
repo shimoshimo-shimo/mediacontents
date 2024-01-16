@@ -406,6 +406,7 @@
 "Assets/script/HP_text.cs"
 "Assets/script/Loadscene.cs"
 "Assets/script/movement.cs"
+"Assets/script/startscreen.cs"
 "Assets/script/statasManager.cs"
 "Assets/script/talk.cs"
 "Assets/script/Title/ArrowCtrl.cs"

@@ -17,7 +17,7 @@ public class Loadscene : MonoBehaviour
 	{
 		if (Input.GetKeyDown("space")) 
 		{
-			SceneManager.LoadScene("RPG scene");//some_senseiシーンをロードする
+			SceneManager.LoadScene("RPG scene");
 		}
 		
 	}
