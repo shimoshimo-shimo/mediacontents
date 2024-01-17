@@ -8,11 +8,13 @@ public class AudioConfig : MonoBehaviour
 {
     [SerializeField] AudioMixer audioMixer;
     [SerializeField] AudioSource bgmAudioSource;
-    [SerializeField] AudioSource seAudioSource;
+    [SerializeField] List<AudioSource> seAudioSources;
     [SerializeField] Slider bgmSlider;
     [SerializeField] Slider seSlider;
 
-
+    // ‘¼‚ÌƒV[ƒ“‚ÅQÆ‚·‚é‚½‚ß‚ÌÃ“I•Ï”
+    public static float bgmVolume = 1.0f;
+    public static float seVolume = 1.0f;
 
     // Start is called before the first frame update
     private void Start()
@@ -22,35 +24,54 @@ public class AudioConfig : MonoBehaviour
         {
             value = Mathf.Clamp01(value);
 
-    
-            // •Ï‰»‚·‚é‚Ì‚Í@|‚W‚O`‚O‚Ü‚Å‚ÌŠÔ
+            // •Ï‰»‚·‚é‚Ì‚Í |‚W‚O`‚O‚Ü‚Å‚ÌŠÔ
             float decibel = 20f * Mathf.Log10(value);
             decibel = Mathf.Clamp(decibel, -80f, 0f);
             audioMixer.SetFloat("BGM", decibel);
-                    
+
+            // ‰¹—Ê‚Ì’l‚ğ•Û‘¶
+            bgmVolume = value;
         });
+
+
+
 
         // ƒXƒ‰ƒCƒ_[‚ğG‚Á‚½‚ç‰¹—Ê‚ª•Ï‰»‚·‚é
         seSlider.onValueChanged.AddListener((value) =>
         {
             value = Mathf.Clamp01(value);
 
-    
-            // •Ï‰»‚·‚é‚Ì‚Í@|‚W‚O`‚O‚Ü‚Å‚ÌŠÔ
+            // •Ï‰»‚·‚é‚Ì‚Í |‚W‚O`‚O‚Ü‚Å‚ÌŠÔ
             float decibel = 20f * Mathf.Log10(value);
             decibel = Mathf.Clamp(decibel, -80f, 0f);
-            audioMixer.SetFloat("SE", decibel);
 
+            // ‘S‚Ä‚ÌSE‚Ì‰¹—Ê‚ğˆêŠ‡‚Å’²®
+            foreach (var seSource in seAudioSources)
+            {
+                audioMixer.SetFloat("SE", decibel);
+            }
+
+            // ‰¹—Ê‚Ì’l‚ğ•Û‘¶
+            seVolume = value;
         });
-    }
 
+
+
+
+        // ‘¼‚ÌƒV[ƒ“‚©‚ç‚Ì•ÏX‚ğ”½‰f
+        bgmSlider.value = bgmVolume;
+        seSlider.value = seVolume;
+    }
 
     // Update is called once per frame
     void Update()
     {
+        /*
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.Return))
         {
             seAudioSource.Play();
         }
+        */
     }
 }
+

@@ -1839,11 +1839,9 @@ GameObject:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
-  - component: {fileID: 963194229}
   - component: {fileID: 963194230}
   - component: {fileID: 963194231}
   - component: {fileID: 963194232}
-  - component: {fileID: 963194233}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1925,18 +1923,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &963194229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad2747797e063964a9b1b85de942f660, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!82 &963194230
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2146,19 +2132,6 @@ MonoBehaviour:
   seAudioSource: {fileID: 963194231}
   bgmSlider: {fileID: 31342117}
   seSlider: {fileID: 850970988}
---- !u!114 &963194233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a406937937c8e9449b03f06845900c7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
 --- !u!1 &967620071
 GameObject:
   m_ObjectHideFlags: 0
@@ -3950,7 +3923,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "(C \u30DC\u30BF\u30F3\u3067\u8A2D\u5B9A\u753B\u9762\u3092\u9589\u3058\u308B)"
+  m_Text: "( X \u30AD\u30FC\u3067\u8A2D\u5B9A\u753B\u9762\u3092\u9589\u3058\u308B
+    )"
 --- !u!222 &1735997773
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4268,6 +4242,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bgmSlider: {fileID: 31342117}
   seSlider: {fileID: 850970988}
+  bgmValueText: {fileID: 0}
+  seValueText: {fileID: 0}
 --- !u!1 &1996943865
 GameObject:
   m_ObjectHideFlags: 0

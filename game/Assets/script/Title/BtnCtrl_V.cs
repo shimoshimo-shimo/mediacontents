@@ -28,7 +28,7 @@ public class BtnCtrl_V : MonoBehaviour
         if (OptionPanel.activeSelf || StartConfirm.activeSelf || QuitConfirm.activeSelf)
         {
             return;
-            Debug.Log("‚¢‚¸‚ê‚©‚Ìƒpƒlƒ‹‚ªì“®’†");
+            Debug.Log("Opened Menu");
         }
 
 

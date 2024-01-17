@@ -26,7 +26,7 @@ public class PanelCtrl : MonoBehaviour
     //オプションパネルを閉じる　仮の手段
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.X))
         {
             HideOptionPanel();
             HideReadmePanel();

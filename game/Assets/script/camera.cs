@@ -43,12 +43,12 @@ public class camera : MonoBehaviour
         Camera.main.gameObject.transform.position = cameraPos; //　カメラの位置に変数cameraPosの位置を入れる
 
         
-        
+        /*
         if (Input.GetKeyDown(KeyCode.Escape))
         {
            SceneManager.LoadScene("Title scene");
         }
-
+        */
         
     }
 }

@@ -14,11 +14,30 @@ public class SliderController : MonoBehaviour
     private float keyHoldInterval = 0.5f; // キーが長押しされたときに経過するまでの時間
     private float valueChangeInterval = 0.1f; // スライダーの値を変更する間隔
 
+    // 他のシーンから引き継ぐための初期値
+    private float initialBgmValue = 0.5f;
+    private float initialSeValue = 0.5f;
+
     void Start()
     {
+        // 他のシーンからの変更があれば反映
+        if (AudioConfig.bgmVolume != 0)
+        {
+            initialBgmValue = AudioConfig.bgmVolume;
+        }
+
+        if (AudioConfig.seVolume != 0)
+        {
+            initialSeValue = AudioConfig.seVolume;
+        }
+
         // 初期状態ではbgmSliderをアクティブにする
         activeSlider = bgmSlider;
         bgmSlider.Select();
+
+        // 初期値をセット
+        bgmSlider.value = initialBgmValue;
+        seSlider.value = initialSeValue;
     }
 
     void Update()
@@ -41,6 +60,18 @@ public class SliderController : MonoBehaviour
                 float newValue = activeSlider.value + Mathf.Sign(horizontalInput) * valueChangeInterval;
                 activeSlider.value = Mathf.Clamp01(newValue); // 値を0から1の範囲にクランプ
                 keyHoldTime = 0.0f;
+
+                // 値を保存
+                if (activeSlider == bgmSlider)
+                {
+                    initialBgmValue = activeSlider.value;
+                    AudioConfig.bgmVolume = initialBgmValue;
+                }
+                else
+                {
+                    initialSeValue = activeSlider.value;
+                    AudioConfig.seVolume = initialSeValue;
+                }
             }
         }
         else
@@ -63,3 +94,4 @@ public class SliderController : MonoBehaviour
         }
     }
 }
+
