@@ -5618,6 +5618,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound1: {fileID: 8300000, guid: 1d121077900680a4392591c27d55573d, type: 3}
+  h: 0
   objectToDeactivate: {fileID: 346718837}
 --- !u!1 &358519564
 GameObject:
@@ -6225,7 +6226,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1005306458, guid: d3fe25a2dc456e141a4e753ef06d02c0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.9811321, b: 0.10694968, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6263,6 +6264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sound1: {fileID: 8300000, guid: 1d121077900680a4392591c27d55573d, type: 3}
+  d: 0
   objectToDeactivate: {fileID: 654953076}
 --- !u!1 &673605276
 GameObject:
@@ -15569,7 +15571,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &984808016
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15932,7 +15934,7 @@ GameObject:
   - component: {fileID: 1037298047}
   - component: {fileID: 1037298046}
   - component: {fileID: 1037298045}
-  - component: {fileID: 1037298044}
+  - component: {fileID: 1037298051}
   m_Layer: 0
   m_Name: pipo-charachip019_0 (2)
   m_TagString: Untagged
@@ -15940,20 +15942,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1037298044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1037298043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95f8c2c407c3c6140b0f03b5d72947e2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sound1: {fileID: 8300000, guid: 1d121077900680a4392591c27d55573d, type: 3}
-  objectToDeactivate: {fileID: 1037298043}
 --- !u!95 &1037298045
 Animator:
   serializedVersion: 5
@@ -16185,7 +16173,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 1005306458, guid: d3fe25a2dc456e141a4e753ef06d02c0, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.9721997, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -16210,6 +16198,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1037298051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037298043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f23b58fd41a05a4391b1d5e5b8adc95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound1: {fileID: 8300000, guid: 1d121077900680a4392591c27d55573d, type: 3}
+  j: 0
+  objectToDeactivate: {fileID: 1037298043}
 --- !u!1 &1043498803 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5310544750037800868, guid: 9743d668f9a3f484c897c025f6e3186c, type: 3}
