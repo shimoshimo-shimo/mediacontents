@@ -75,8 +75,8 @@ namespace pos
                 x = worldPos.x;
                 y = worldPos.y;
                 a = a + 1;
-                PlayerPrefs.SetFloat("X", x-1);
-                PlayerPrefs.SetFloat("Y", y-1);
+                PlayerPrefs.SetFloat("X", x);
+                PlayerPrefs.SetFloat("Y", y);
                 PlayerPrefs.SetInt("A", a);
 
                 Debug.Log($"Savepos - ï€ë∂ÇµÇΩç¿ïW: {x}, {y}");
@@ -90,8 +90,8 @@ namespace pos
 
         public static void Loadpos()
         {
-            x = PlayerPrefs.GetFloat("X", -1);
-            y = PlayerPrefs.GetFloat("Y", -30);
+            x = PlayerPrefs.GetFloat("X", 0);
+            y = PlayerPrefs.GetFloat("Y", 3);
             a = PlayerPrefs.GetInt("A", 0);
             
             Debug.Log($"Loadpos - ì«Ç›çûÇÒÇæç¿ïW: {x}, {y}");
