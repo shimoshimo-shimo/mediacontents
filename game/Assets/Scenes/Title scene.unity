@@ -1842,6 +1842,7 @@ GameObject:
   - component: {fileID: 963194230}
   - component: {fileID: 963194231}
   - component: {fileID: 963194232}
+  - component: {fileID: 963194233}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1935,7 +1936,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: -9084922113393843555, guid: 6e70905a521c5c249b084908a9a3fc2d, type: 2}
   m_audioClip: {fileID: 8300000, guid: 80c1cd44f88e9e14a8f6c6e6d6e9947e, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -2129,9 +2130,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 6e70905a521c5c249b084908a9a3fc2d, type: 2}
   bgmAudioSource: {fileID: 963194230}
-  seAudioSource: {fileID: 963194231}
+  seAudioSources:
+  - {fileID: 963194231}
   bgmSlider: {fileID: 31342117}
   seSlider: {fileID: 850970988}
+--- !u!114 &963194233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d22fd48f3d9797f4ebfa52febce1b336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &967620071
 GameObject:
   m_ObjectHideFlags: 0

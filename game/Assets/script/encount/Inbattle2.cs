@@ -27,7 +27,8 @@ public class Inbattle2 : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        audioSource.PlayOneShot(sound1);
+        // audioSource.PlayOneShot(sound1);
+        AudioConfig.Instance.seAudioSources[0].Play();
         StartCoroutine(WaitAndLoadScene());
     }
 

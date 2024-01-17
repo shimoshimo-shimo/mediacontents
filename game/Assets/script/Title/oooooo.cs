@@ -5,7 +5,7 @@ using UnityEngine;
 public class oooooo : MonoBehaviour
 {
 
-
+    /*
 
     public GameObject TitlePanel;
 
@@ -27,5 +27,5 @@ public class oooooo : MonoBehaviour
 
 
 
-    }
+    }*/
 }
