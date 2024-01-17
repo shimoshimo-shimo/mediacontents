@@ -215,8 +215,22 @@ public class typing2 : MonoBehaviour
         }
     }
 
-    void Miss()
+
+    [SerializeField] public GameObject TitlePanel;    // 【 追加 】メニューパネルのアクティブ状態を取得します。
+
+
+void Miss()
     {
+
+
+        // 【 追加 】メニューパネルがアクティブな場合はダメージを受けないように。
+        if (TitlePanel.activeSelf)
+        {
+            return;
+        }
+
+
+
         Debug.Log("不正解");
         DecreaseM2Slider(); // 不正解時にm2sliderを減少
 

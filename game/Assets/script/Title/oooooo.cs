@@ -6,22 +6,18 @@ public class oooooo : MonoBehaviour
 {
 
     /*
+     * 
 
-    public GameObject TitlePanel;
-
-
-
+[SerializeField] public GameObject TitlePanel;    // 【 追加 】メニューパネルのアクティブ状態を取得します。
 
     void Update()
     {
 
 
-
-        // メニュー作動中は処理をスキップ
+        // 【 追加 】メニューパネルがアクティブな場合はダメージを受けないように。
         if (TitlePanel.activeSelf)
         {
             return;
-            Debug.Log("Opened Menu");
         }
 
 

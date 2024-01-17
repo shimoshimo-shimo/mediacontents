@@ -12,26 +12,49 @@ public class PanelCtrl : MonoBehaviour
     [SerializeField] public GameObject QuitConfirm;
     [SerializeField] public GameObject ReadmePanel;
 
+    private int currentIndex = 0;
 
 
-    // Start is called before the first frame update
+
     void Start()
     {
         OptionPanel.SetActive(false);
         StartConfirm.SetActive(false);
         QuitConfirm.SetActive(false);
         ReadmePanel.SetActive(false);
+
+        currentIndex = 0;
     }
 
-    //オプションパネルを閉じる　仮の手段
+    //オプションパネルを閉じる
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            HideOptionPanel();
-            HideReadmePanel();
+            if (currentIndex == 0)
+            {
+                ShowQuitConfirm();
+                currentIndex = 1;
+            }
+            else if (currentIndex == 1)
+            {
+                if (OptionPanel.activeSelf)
+                {
+                    HideOptionPanel();
+                    currentIndex = 0;
+                }
+                else if (QuitConfirm.activeSelf)
+                {
+                    HideQuitConfirm();
+                    currentIndex = 0;
+                }
+                else if (ReadmePanel.activeSelf)
+                {
+                    HideReadmePanel();
+                    currentIndex = 0;
+                }
 
-
+            }
         }
     }
 
@@ -40,6 +63,7 @@ public class PanelCtrl : MonoBehaviour
     public void ShowOptionPanel()
     {
         OptionPanel.SetActive(true);
+        currentIndex = 1;
     }
 
     public void HideOptionPanel()
@@ -90,6 +114,7 @@ public class PanelCtrl : MonoBehaviour
     {
         ReadmePanel.SetActive(true);
         ReadmeFiles();
+        currentIndex = 1;
     }
 
     public void HideReadmePanel()

@@ -10,8 +10,22 @@ public class MajoController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
+
+    // 【 追加 】メニューパネルのアクティブ状態を取得します。
+    [SerializeField] public GameObject TitlePanel; 
+
     void Update()
     {
+
+        // 【 追加 】メニューパネルの操作入力に連動して歩かないように。
+        if (TitlePanel.activeSelf)
+        {
+            return;
+        }
+
+
+
+
         float x = Input.GetAxisRaw("Horizontal");
         float y = (x == 0) ? Input.GetAxisRaw("Vertical") : 0.0f;
 

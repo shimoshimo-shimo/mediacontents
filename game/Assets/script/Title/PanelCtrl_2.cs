@@ -17,7 +17,6 @@ public class PanelCtrl_2 : MonoBehaviour
 
 
 
-    // Start is called before the first frame update
     void Start()
     {
         TitlePanel.SetActive(false);
@@ -27,10 +26,9 @@ public class PanelCtrl_2 : MonoBehaviour
         ReadmePanel.SetActive(false);
 
         currentIndex = 0;
-        Debug.Log(currentIndex);
     }
 
-    //オプションパネルを閉じる　仮の手段
+    //オプションパネルを閉じる
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
