@@ -8,7 +8,7 @@ public class AudioConfig : MonoBehaviour
 {
     [SerializeField] AudioMixer audioMixer;
     [SerializeField] AudioSource bgmAudioSource;
-    [SerializeField] List<AudioSource> seAudioSources;
+    [SerializeField] public List<AudioSource> seAudioSources;
     [SerializeField] Slider bgmSlider;
     [SerializeField] Slider seSlider;
 
@@ -16,7 +16,17 @@ public class AudioConfig : MonoBehaviour
     public static float bgmVolume = 1.0f;
     public static float seVolume = 1.0f;
 
-    // Start is called before the first frame update
+
+
+    public static AudioConfig Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
+
+
     private void Start()
     {
         // スライダーを触ったら音量が変化する

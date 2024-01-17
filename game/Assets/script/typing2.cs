@@ -160,7 +160,8 @@ public class typing2 : MonoBehaviour
                 else
                 {
                     // 正解時の音を再生
-                    audioSource.PlayOneShot(m4BGM);
+                    // audioSource.PlayOneShot(m4BGM);
+                    AudioConfig.Instance.seAudioSources[3].Play();
                 }
             }
             else
@@ -187,7 +188,8 @@ public class typing2 : MonoBehaviour
             DisplayRandomElement(_hatudou1);
             m8Text.text = "";
             // 魔法1のBGMを再生
-            audioSource.PlayOneShot(m1BGM);
+            // audioSource.PlayOneShot(m1BGM);
+            AudioConfig.Instance.seAudioSources[0].Play();
             // m1BGMが再生されたときにパーティクルシステムを表示
             InstantiateEffect(m1effectParticleSystem);
         }
@@ -196,7 +198,8 @@ public class typing2 : MonoBehaviour
             DisplayRandomElement(_hatudou2);
             m8Text.text = "";
             // 魔法2のBGMを再生
-            audioSource.PlayOneShot(m2BGM);
+            // audioSource.PlayOneShot(m2BGM);
+            AudioConfig.Instance.seAudioSources[1].Play();
             // m2BGMが再生されたときにパーティクルシステムを表示
             InstantiateEffect(m2effectParticleSystem);
         }
@@ -205,7 +208,8 @@ public class typing2 : MonoBehaviour
             DisplayRandomElement(_hatudou3);
             m8Text.text = "";
             // 魔法3のBGMを再生
-            audioSource.PlayOneShot(m3BGM);
+            // audioSource.PlayOneShot(m3BGM);
+            AudioConfig.Instance.seAudioSources[2].Play();
             // m3BGMが再生されたときにパーティクルシステムを表示
             InstantiateEffect(m3effectParticleSystem);
         }
@@ -260,7 +264,8 @@ public class typing2 : MonoBehaviour
         // 直前の値よりも小さい場合、m5BGMを再生
         if (m2slider.value < previousValue)
         {
-            audioSource.PlayOneShot(m5BGM);
+            // audioSource.PlayOneShot(m5BGM);
+            AudioConfig.Instance.seAudioSources[4].Play();
             // m5BGMが再生されたときにパーティクルシステムを表示
             InstantiateEffect(m4effectParticleSystem);
         }
