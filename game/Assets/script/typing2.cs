@@ -30,9 +30,9 @@ public class typing2 : MonoBehaviour
     [SerializeField] ParticleSystem m4effectParticleSystem;
 
 
-    private string[] _hatudou1 = { "1act", "1ice", "1mad", "1sue" };
-    private string[] _hatudou2 = { "2abo", "2cov", "2sup", "2bet" };
-    private string[] _hatudou3 = { "3div", "3gas", "3tra" };
+    private string[] _hatudou1 = { "1act", "1ice", "1mad", "1dist", "1live", "1have", "1pat", "1give", "1short", "1wind" };
+    private string[] _hatudou2 = { "2gently", "2impact", "2castle", "2should", "2mellow", "2classic", "2breeze", "2exceed", "2complete" };
+    private string[] _hatudou3 = { "3ambiance", "3delicate", "3quandary", "3transmit", "3plethora", "3symphony", "3prodigious", "3eccentric", "3resilient", "3magnificent" };
     private bool isTyping = false;
     public int flag;
 
@@ -43,9 +43,9 @@ public class typing2 : MonoBehaviour
     void Start()
     {
         // ‰Šú’l‚ğİ’è
-        m1Text.text = "‡@‰ŠUŒ‚";
-        m2Text.text = "‡A•XUŒ‚";
-        m3Text.text = "‡B—‹UŒ‚";
+        m1Text.text = "‡@ãUŒ‚";
+        m2Text.text = "‡A’†UŒ‚";
+        m3Text.text = "‡B‹­UŒ‚";
 
         mslider.maxValue = 1000;
         mslider.value = mslider.maxValue;
@@ -73,9 +73,13 @@ public class typing2 : MonoBehaviour
     {
 
         // m1slider‚Ü‚½‚Ím2slider‚ª0ˆÈ‰º‚É‚È‚Á‚½‚çI—¹
-        if (mslider.value <= 0 || m2slider.value <= 0)
+        if (mslider.value <= 0 )
         {
             EndGame();
+        }else  if (m2slider.value <= 0)
+        {
+            PlayerPrefs.DeleteAll();
+            SceneManager.LoadScene("Title scene");
         }
 
 
@@ -105,7 +109,7 @@ public class typing2 : MonoBehaviour
         // ƒL[‚ª‰Ÿ‚³‚ê‚Ä‚¢‚éê‡Am8Text‚É“ü—Í‚³‚ê‚½•¶š—ñ‚ğ•\¦
         foreach (KeyCode keyCode in Enum.GetValues(typeof(KeyCode)))
         {
-            if ((keyCode >= KeyCode.Alpha0 && keyCode <= KeyCode.Alpha9) || keyCode == KeyCode.Return || keyCode == KeyCode.Escape )
+            if ((keyCode >= KeyCode.Alpha0 && keyCode <= KeyCode.Alpha9) || keyCode == KeyCode.Return)
             {
                 continue;
             }
@@ -265,7 +269,16 @@ void Miss()
 
     void DecreaseM1Slider()
     {
-        mslider.value = Mathf.Max(0, mslider.value - 100);
+        if (flag == 1)
+        {
+            mslider.value = Mathf.Max(0, mslider.value - 50);
+        }else if(flag == 2)
+        {
+            mslider.value = Mathf.Max(0, mslider.value - 100);
+        }else if (flag == 3)
+        {
+            mslider.value = Mathf.Max(0, mslider.value - 200);
+        }
     }
 
     void DecreaseM2Slider()

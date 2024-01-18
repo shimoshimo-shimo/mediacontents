@@ -51,7 +51,7 @@ public class Inbattle4
         objectToDeactivate.SetActive(false);
         pos.playerpos.Savepos();
         // シーンをロード
-        SceneManager.LoadScene("Typing Scene");
+        SceneManager.LoadScene("typing scene 3");
     }
 }
 

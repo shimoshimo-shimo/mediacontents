@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-    /*
+    
     void Update()
     {
         EndGame();
@@ -16,10 +16,10 @@ public class Test : MonoBehaviour
         {
 
             
-            UnityEditor.EditorApplication.isPlaying = false;//ゲームプレイ終了
+            //UnityEditor.EditorApplication.isPlaying = false;//ゲームプレイ終了
             Application.Quit();//ゲームプレイ終了
         }
 
     }
-    */
+    
 }

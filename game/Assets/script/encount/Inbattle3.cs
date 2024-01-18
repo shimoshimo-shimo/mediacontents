@@ -50,7 +50,7 @@ public class Inbattle3 : MonoBehaviour
         objectToDeactivate.SetActive(false);
         pos.playerpos.Savepos();
         // シーンをロード
-        SceneManager.LoadScene("Typing Scene");
+        SceneManager.LoadScene("typing scene 2");
     }
 }
 
