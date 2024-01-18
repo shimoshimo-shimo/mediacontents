@@ -75,8 +75,8 @@ namespace pos
                 x = worldPos.x;
                 y = worldPos.y;
                 a = a + 1;
-                PlayerPrefs.SetFloat("X", x);
-                PlayerPrefs.SetFloat("Y", y);
+                PlayerPrefs.SetFloat("X", x-1);
+                PlayerPrefs.SetFloat("Y", y-1);
                 PlayerPrefs.SetInt("A", a);
 
                 Debug.Log($"Savepos - 保存した座標: {x}, {y}");
@@ -90,8 +90,8 @@ namespace pos
 
         public static void Loadpos()
         {
-            x = PlayerPrefs.GetFloat("X", 0);
-            y = PlayerPrefs.GetFloat("Y", 3);
+            x = PlayerPrefs.GetFloat("X", -1);
+            y = PlayerPrefs.GetFloat("Y", -30);
             a = PlayerPrefs.GetInt("A", 0);
             
             Debug.Log($"Loadpos - 読み込んだ座標: {x}, {y}");
@@ -102,7 +102,7 @@ namespace pos
             // プレイヤーオブジェクトの座標を設定
             playerObject.transform.position = new Vector3(x, y);
 
-            if(a == 4)
+            if(a == 3)
             {
                 SceneManager.LoadScene("Test scene");
             }

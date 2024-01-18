@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0043495763, g: 0.0003151908, b: 0.0000031921354, a: 1}
+  m_IndirectSpecularColor: {r: 0.0043495735, g: 0.00031519105, b: 0.000003192153, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5673,8 +5673,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 348.6, y: -274.25}
-  m_SizeDelta: {x: 326.8, y: 51.5}
+  m_AnchoredPosition: {x: 341.57468, y: -273.9991}
+  m_SizeDelta: {x: 340.8506, y: 52.0018}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &358519566
 MonoBehaviour:
@@ -5709,7 +5709,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "C\u30AD\u30FC\u3067\u904A\u3073\u65B9\u8AAC\u660E\u3092\u9589\u3058\u308B"
+  m_Text: "ESC\u30AD\u30FC\u3067\u904A\u3073\u65B9\u8AAC\u660E\u3092\u9589\u3058\u308B"
 --- !u!222 &358519567
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -138271,7 +138271,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1097108664
 RectTransform:
   m_ObjectHideFlags: 0

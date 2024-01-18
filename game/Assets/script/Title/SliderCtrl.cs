@@ -21,15 +21,9 @@ public class SliderController : MonoBehaviour
     void Start()
     {
         // 他のシーンからの変更があれば反映
-        if (AudioConfig.bgmVolume != 0)
-        {
             initialBgmValue = AudioConfig.bgmVolume;
-        }
-
-        if (AudioConfig.seVolume != 0)
-        {
             initialSeValue = AudioConfig.seVolume;
-        }
+
 
         // 初期状態ではbgmSliderをアクティブにする
         activeSlider = bgmSlider;

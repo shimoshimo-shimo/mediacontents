@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
+    /*
     void Update()
     {
         EndGame();
@@ -20,4 +21,5 @@ public class Test : MonoBehaviour
         }
 
     }
+    */
 }
