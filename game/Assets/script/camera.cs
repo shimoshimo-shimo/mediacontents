@@ -102,7 +102,7 @@ namespace pos
             // プレイヤーオブジェクトの座標を設定
             playerObject.transform.position = new Vector3(x, y);
 
-            if(a == 3)
+            if(a == 4)
             {
                 SceneManager.LoadScene("Test scene");
             }

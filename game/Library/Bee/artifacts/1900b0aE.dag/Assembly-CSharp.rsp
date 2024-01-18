@@ -402,6 +402,7 @@
 "Assets/script/encount/Inbattle.cs"
 "Assets/script/encount/Inbattle2.cs"
 "Assets/script/encount/Inbattle3.cs"
+"Assets/script/encount/Inbattle4.cs"
 "Assets/script/enemymove.cs"
 "Assets/script/GameEnd.cs"
 "Assets/script/game_stats.cs"
